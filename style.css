@@ -1,0 +1,115 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    margin: 0;
+    padding: 30px;
+    min-width: 1100px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    }
+body{
+    font-family: "Inter";
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+
+ h1{
+        font-size: 36px;
+        font-weight: 600;
+        font-family: "Public Sans"; 
+        color:  #1d1d1d;
+        text-align: center;
+    }
+.container {
+    border-radius: 8px;
+    padding: 25px;
+    background-color:#bababb;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select {
+    padding: 10px;
+}
+button {
+    padding: 12px 20px;
+}
+.results {
+    margin-top: 30px;
+    display: none;
+}
+.results h2 {
+    margin-bottom: 15px;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+.summary {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.distance{
+    display:flex;
+    margin-top: 20px;
+    height: 43px;
+    
+}
+.time{
+    display:flex;
+    height: 40px;
+    
+}
+#calculate{
+    font-family:"Inter";
+    border-radius: 5px;
+    color:white;
+    height:45px;
+    overflow:hidden;
+    line-height:12px;
+    padding: 5px 5px 5px 5px;
+    background-color: #10A73D;
+    width: 110px;
+    margin-left: 100px;
+}
+#calculate:hover{
+    cursor:pointer;
+    background-color: #0D772C;
+    transform: scale(1.1);
+}
+#calcbtn{
+    margin-left: 110px;
+}
+#clear{
+    background-color: #bababb;
+    border-radius: 5px;
+    border-color: white;
+    color:white;
+    height:45px;
+    width: 110px;
+    line-height:12px;
+}
+#clear:hover{
+    background-color: #6C6C6D;
+    transform: scale(1.1);
+}
