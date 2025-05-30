@@ -15,34 +15,32 @@
     <h1>Running Split Calculator</h1>
       <div class="container">
          <div class="time" >
-            <label for="hours" style='margin-right:10px'>Hours:</label>
-            <input id="hours" value="0" placeholder="Hours" style='margin-right:10px' >
+            <div class="hours">
+                <label for="hours" style='margin-right:10px'>Hours:</label>
+                <input id="hours" value="0" placeholder="Hours" style='margin-right:10px; margin-left: 13px;' size="5">
+            
+                <label for="minutes" style='margin-right:10px'>Minutes:</label>
+                <input id="minutes" value="0" placeholder="Minutes" size="5">
+            </div>
         
-        
-        
-            <label for="minutes" style='margin-right:10px'>Minutes:</label>
-            <input id="minutes" value="0" placeholder="Minutes">
-        
-        
-        
-            <label for="seconds" style='margin-left:10px' >Seconds:</label>
-            <input id="seconds" value="0" placeholder="Seconds" style="margin-left: 10px;">
+            <label for="seconds" >Seconds:</label>
+            <input id="seconds" value="0" placeholder="Seconds" style="margin-bottom: 10px;" size="5">
         </div>   
-        <div class="distance">
-            <label for="distance"style='margin-right:10px'>Distance:</label>
-            <input id="distance"  placeholder="Enter distance">
-        
-            <label for="distance-unit" style='margin-left:10px' >Distance Unit:</label>
-            <select id="distance-unit" style='margin-left:10px'>
-                <option value="miles">Miles</option>
-                <option value="kilometers">Kilometers</option>
-            </select>
+            <div id="distanceandunit">
+                <label for="distance">Distance:</label>
+                <input id="distance"  size="5">
+                
+                <label for="distance-unit" style='margin-left:10px' >Distance Unit:</label>
+                <select id="distance-unit" >
+                    <option value="miles">Miles</option>
+                    <option value="kilometers">Kilometers</option>
+                </select>
+            </div>
             <div id="calcbtn">
-            <button class="btn btn-outline-success" id="calculate" style='margin-left:20px'>Calculate</button>
-             <button class="btn btn-outline-success" id="clear" onclick="reload()">Clear</button>
-        </div>
-        </div>
-        
+                <button class="btn btn-outline-success" id="calculate" >Calculate</button>
+                <button class="btn btn-outline-success" id="clear" onclick="reload()">Clear</button>
+            </div>
+       
         <div id="results" class="results">
             <h2>Your Results</h2>
             

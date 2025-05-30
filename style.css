@@ -1,6 +1,5 @@
 html{
     display: flex;
-    justify-content: center;
     align-content: center;
     align-items: center;
     height:100%;
@@ -10,13 +9,13 @@ html{
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
-    overflow: hidden;
+   
     }
 body{
     font-family: "Inter";
     margin: 0; 
     height: 100%; 
-    overflow: hidden;
+    
 }
 
 
@@ -44,6 +43,7 @@ label {
 }
 input, select {
     padding: 10px;
+    
 }
 button {
     padding: 12px 20px;
@@ -73,12 +73,21 @@ th, td {
     display:flex;
     margin-top: 20px;
     height: 43px;
-    
+    align-items: center;
 }
-.time{
+#time{
     display:flex;
     height: 40px;
-    
+    align-items: center;
+}
+.hours{
+    display:flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#distanceandunit{
+    margin-top: 10px;
 }
 #calculate{
     font-family:"Inter";
@@ -90,7 +99,7 @@ th, td {
     padding: 5px 5px 5px 5px;
     background-color: #10A73D;
     width: 110px;
-    margin-left: 100px;
+    
 }
 #calculate:hover{
     cursor:pointer;
@@ -98,7 +107,8 @@ th, td {
     transform: scale(1.1);
 }
 #calcbtn{
-    margin-left: 110px;
+    text-align: center;
+    margin-top: 30px;
 }
 #clear{
     background-color: #bababb;
@@ -108,6 +118,7 @@ th, td {
     height:45px;
     width: 110px;
     line-height:12px;
+    margin-left: 5px;
 }
 #clear:hover{
     background-color: #6C6C6D;
