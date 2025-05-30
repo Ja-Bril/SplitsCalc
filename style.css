@@ -18,7 +18,7 @@ body{
     font-family: "Inter";
     margin: 0; 
     height: 100%; 
-    width: 470px;
+    width: 610px;
 }
 
  h1{
@@ -37,7 +37,7 @@ body{
     margin: 10px;
     color: white;
     padding: 20px;
-    
+     width: 470px;
 }
 
 label {
@@ -84,13 +84,21 @@ th, td {
     align-items: center;
 }
 .hours{
-    display:flex;
+    
     margin-bottom: 10px;
     align-items: center;
 }
 
 #distanceandunit{
     margin-top: 10px;
+}
+#distance{
+    margin-left:10px;
+    margin-right: 10px;
+}
+#distance-unit{
+    margin-left: 10px;
+
 }
 #calculate{
     font-family:"Inter";
@@ -126,4 +134,25 @@ th, td {
 #clear:hover{
     background-color: #6C6C6D;
     transform: scale(1.1);
+}
+/*Mobile*/
+@media(max-width: 600px){
+    body{
+        flex-direction: column;
+        width: 280px;
+    }
+    .hours{
+        flex-direction: column;
+    }
+    #distance{
+        margin-left:10px;
+    }
+    #distance-unit{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #seconds{
+        margin-left: 8px;
+    }
+    
 }
