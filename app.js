@@ -5,7 +5,7 @@ function calculateSplits() {
     // Get input values
     const distance = parseFloat(document.getElementById('distance').value); //assigns distance to float number converted from String
     const distanceUnit = document.getElementById('distance-unit').value;
-    const hours = parseInt(document.getElementById('hours').value) || 0;
+    const hours = parseInt(document.getElementById('hoursinput').value) || 0;
     const minutes = parseInt(document.getElementById('minutes').value) || 0;
     const seconds = parseInt(document.getElementById('seconds').value) || 0;
     
